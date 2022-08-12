@@ -1,0 +1,2 @@
+[console_scripts]
+myscript = fintech_test.__main__:main

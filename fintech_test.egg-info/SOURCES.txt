@@ -1,0 +1,12 @@
+LICENCE.txt
+setup.py
+version.py
+fintech_test/__init__.py
+fintech_test/__main__.py
+fintech_test/jupyter_notebook_config.py
+fintech_test.egg-info/PKG-INFO
+fintech_test.egg-info/SOURCES.txt
+fintech_test.egg-info/dependency_links.txt
+fintech_test.egg-info/entry_points.txt
+fintech_test.egg-info/requires.txt
+fintech_test.egg-info/top_level.txt
