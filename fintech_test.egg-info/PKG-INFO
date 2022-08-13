@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fintech-test
-Version: 0.1.0
+Version: 1.0.2
 Summary: REMOTE_USER Authenticator: An Authenticator for Jupyterhub to read user information from HTTP request headers, as when running behind an authenticating proxy.
 Home-page: https://github.com/manavmisra2/fintech_test.git
 Author: Carl (https://github.com/manavmisra2)

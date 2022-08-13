@@ -1,6 +1,7 @@
 LICENCE.txt
 setup.py
 version.py
+bin/run_fintech_test
 fintech_test/__init__.py
 fintech_test/__main__.py
 fintech_test/jupyter_notebook_config.py

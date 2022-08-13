@@ -44,7 +44,7 @@ setup_args = dict(
         'Programming Language :: Python :: 3',
     ],
     data_files          = [('.', ['version.py'])],
-    scripts=['bin/run_fintech_test'],	
+    # scripts=['bin/run_fintech_test'],	
     entry_points = {
         "console_scripts": [
             "myscript = fintech_test.__main__:main",
