@@ -6,10 +6,8 @@ os.system("jupyter serverextension enable --py jupyterlab_templates")
 def main():
     print("Running Jupyter platform!") 
     out=site.getsitepackages()
-    str_out = ""     
-    for ele in out: 
-        str_out += ele 
-    filename =  os.path.join(str_out, "finailab", "jupyter_notebook_config.py")
+    str_out = out[1]     
+    filename =  os.path.join(str_out, "fintech_test", "jupyter_notebook_config.py")
     filename2 = filename.replace(os.sep, '/')    
     os.system("jupyter lab --config=" + filename2)
    
