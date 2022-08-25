@@ -1,1 +1,3 @@
 jupyterlab
+jupyterlab_templates
+wget
