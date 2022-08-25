@@ -26,7 +26,7 @@ with open(pjoin(here, 'version.py')) as f:
 setup_args = dict(
     name='fintech_test',
     packages=['fintech_test'],
-    version="10",
+    version="11",
     description="""REMOTE_USER Authenticator: An Authenticator for Jupyterhub to read user information from HTTP request headers, as when running behind an authenticating proxy.""",
     long_description="",
     author="Manav Misra (https://github.com/manavmisra2)",
@@ -43,7 +43,7 @@ setup_args = dict(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
     ],
-    package_data={'': ['quanturf_test.ipynb']},
+    package_data={'': ['quanturf.ipynb']},
     include_package_data=True,
     data_files=[('.', ['version.py'])],
     # scripts=['bin/run_fintech_test'],
@@ -59,7 +59,7 @@ if 'setuptools' in sys.modules:
     setup_args['install_requires'] = install_requires = []
     install_requires.append('jupyterlab')
     install_requires.append('jupyterlab_templates')
-    install_requires.append('wget')
+    install_requires.append('gitpython')
 
 
 def main():

@@ -17,7 +17,7 @@ def main():
         filename2 = filename.replace(os.sep, '/')
         filename3 = os.path.join(
             out1, "jupyterlab_templates/templates/jupyterlab_templates/")
-        src_file = os.path.join(out1, "fintech_test", "quanturf_test.ipynb")
+        src_file = os.path.join(out1, "fintech_test", "quanturf.ipynb")
         src_path = src_file
         dst_path = filename3.replace(os.sep, '/')
         shutil.copy(src_path, dst_path)
@@ -31,7 +31,7 @@ def main():
             str_out, "jupyterlab_templates/templates/jupyterlab_templates/")
         filename3 = os.path.join(
             str_out, "jupyterlab_templates/templates/jupyterlab_templates/")
-        src_file = os.path.join(str_out, "fintech_test", "quanturf_test.ipynb")
+        src_file = os.path.join(str_out, "fintech_test", "quanturf.ipynb")
         src_path = src_file
         dst_path = filename3.replace(os.sep, '/')
         shutil.copy(src_path, dst_path)

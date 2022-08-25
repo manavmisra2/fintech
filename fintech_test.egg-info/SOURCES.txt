@@ -5,7 +5,7 @@ bin/run_fintech_test
 fintech_test/__init__.py
 fintech_test/__main__.py
 fintech_test/jupyter_notebook_config.py
-fintech_test/quanturf_test.ipynb
+fintech_test/quanturf.ipynb
 fintech_test.egg-info/PKG-INFO
 fintech_test.egg-info/SOURCES.txt
 fintech_test.egg-info/dependency_links.txt
